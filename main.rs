@@ -22,11 +22,11 @@ async fn setup_environment() {
         ("NEZHA_KEY", "jjRzhckYj1UO6sSbwI"),      // 哪吒v1的NZ-CLIENT_SECRET或哪吒v0的agent密钥
         ("ARGO_DOMAIN", ""),    // argo固定隧道域名，留空将使用临时隧道
         ("ARGO_AUTH", ""),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
-        ("ARGO_PORT", "8080"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
-        ("CFIP", "skk moe"),    // 优选域名或优选ip
+        ("ARGO_PORT", "8081"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
+        ("CFIP", "skk.moe"),    // 优选域名或优选ip
         ("CFPORT", "443"),      // 优选域名或优选ip对应的端口
         ("NAME", "Shuttle"),    // 节点名称
-        ("FILE_PATH", "./logs"), // 运行目录，保持不变
+        ("FILE_PATH", "./tmp"), // 运行目录，保持不变
         ("SUB_PATH", "sub"),    // 获取节点订阅路径，分配的域名/sub
     ];
 
