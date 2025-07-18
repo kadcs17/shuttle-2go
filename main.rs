@@ -20,9 +20,9 @@ async fn setup_environment() {
         ("NEZHA_SERVER", "nz.kadcs.eu.org"),   // 哪吒v1填写形式：nezha.xxx.com:8008   // 哪吒v0填写形式：nezha.xxx.com
         ("NEZHA_PORT", "443"),     // 哪吒v1请留空此变量，哪吒v0的agent端口
         ("NEZHA_KEY", "yrifHlsuASkmUPWscB"),      // 哪吒v1的NZ-CLIENT_SECRET或哪吒v0的agent密钥
-        ("ARGO_DOMAIN", "shuttle.kadcs123.eu.org"),    // argo固定隧道域名，留空将使用临时隧道
+        ("ARGO_DOMAIN", "shuttle.kadcs.eu.org"),    // argo固定隧道域名，留空将使用临时隧道
         ("ARGO_AUTH", "{"AccountTag":"e75f6e7f0200610b13fcbabb11fe93fc","TunnelSecret":"AUWC4QUj/i+mwI1PIgKLNpubbtFWwJKA0lcDcNIyZV0=","TunnelID":"76914475-cda8-433c-9440-e8abacef1aab","Endpoint":""}"),      // argo固定隧道密钥，json或token,留空将使用临时隧道,
-        ("ARGO_PORT", "8071"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
+        ("ARGO_PORT", "8081"),  // argo端口，使用固定隧道token，需要在cloudflare后台也设置端口为8080
         ("CFIP", "skk.moe"),    // 优选域名或优选ip
         ("CFPORT", "443"),      // 优选域名或优选ip对应的端口
         ("NAME", "Shuttle"),    // 节点名称
